@@ -1,0 +1,8 @@
+#box ul{
+    width: 1000px;
+    height: 600px;
+    background-color: antiquewhite;
+
+    overflow: hidden;
+    transition: all .3s;
+}
