@@ -1,5 +1,6 @@
 body{
     background-color: powderblue;
+    
 }
 
 #animals{
@@ -38,4 +39,36 @@ body{
 
 #animals li{
     transition: all 2s;
+}
+
+
+.button-left  {
+    background-color: rgba(160, 193, 255, 0.7);
+    padding: 0 20px;
+    cursor: pointer;
+    line-height: 500px;
+    width: 10px;
+    font-size: 20px;
+    opacity: .2;
+    position:absolute;
+    left:20px;
+}
+
+.button-left:hover {
+    opacity:1;
+}
+
+.button-right {
+    background-color: rgba(160, 193, 255, 0.7);
+    padding: 0 20px;
+    cursor: pointer;
+    line-height: 500px;
+    width: 10px;
+    font-size: 20px;
+    opacity: .2;
+    position:absolute;
+    right:20px;
+}
+.button-right:hover {
+    opacity: 1;
 }
